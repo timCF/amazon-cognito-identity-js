@@ -1,4 +1,6 @@
-import CognitoIdentityServiceProvider from 'aws-sdk/clients/cognitoidentityserviceprovider';
+console.log("HELLO")
+import { CognitoIdentityServiceProvider } from 'aws-sdk/dist/aws-sdk-react-native';
+console.log(CognitoIdentityServiceProvider)
 import * as enhancements from './src';
 
 export * from './src';
